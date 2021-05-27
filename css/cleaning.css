@@ -1,0 +1,143 @@
+body {
+    background-image: url(../img/back.jpg);  
+    font-family:sans-serif;
+    color: #5a5a5a;
+    height: 1600px;
+
+
+  }
+  .offers{
+     background-color: #ffeb3b; 
+    width: 1250px;
+    height: 240px;
+    margin: auto;
+    border-radius: 10px;
+
+    /* position: relative; */
+    /* background-image: url(../img/essentials/image10.jpg); */
+    
+  }
+  
+  .offers img{
+    height: 100%;
+    display:inline-block
+  }
+  .offers p{
+    
+    display: inline;
+    margin-left: 240px;
+    font-size: 50px;
+    color: #ff494be3;
+    font-weight: 700;
+    margin-top: 9px;
+  }
+.b1{
+    background: linear-gradient(to right,#F7D282, #FBECCD);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    opacity: 0.9; 
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 35px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 2px #b2b2b2;
+  } 
+  .txt1{
+    margin-left: 50px;
+    text-align: center;
+  }
+  .offers-view{
+    width: 1250px;
+    height: 250px;
+    margin: auto;
+    background-color: #ffeb3b;
+  }
+  .offers-view img{
+    height: 100%;
+    width: 40%;
+    display: inline;
+  }
+  .offers-view p{
+    display: inline;
+    margin-left: 150px;
+    font-size: 35px;
+    color: #f44336;
+    font-weight: 800;
+  }
+  .products{
+    margin-top: 220px;
+    display: grid;
+    width: 1250px;
+    margin: 90px auto 0px;
+    grid-template-columns: repeat(5,auto);
+    column-gap: 10px;
+    row-gap: 20px;
+  }
+  .products .product-info{
+    text-align: center;
+    width: 242px;
+    background-color: white;
+    border-radius: 10px;
+    height: 340px;
+  }
+  .products .product-info p{
+    color: #4caf50bd;
+    font-size: 20px;
+    padding-top: 10px;
+    /* font-weight: 800; */
+    font-family: 'Calistoga', cursive;
+  }
+  
+  .products .product-info div {
+    margin: 25px 0px 10px;
+      border-top: 1px solid #d6d6d6;
+      padding-top: 13px;
+    
+  }
+  .products .product-info div button{
+    
+      margin-top: 10px;
+      width: 200px;
+      border: 1px solid #bce4bc;
+      background-color: white;
+      border-radius: 20px;
+      transition: 0.7s ease-in-out;
+  }
+  .products .product-info div button:hover{
+    background-color: #bce4bc;
+    
+  }
+  .products .product-info div p{
+    font-weight: 800;
+    /* color: #1bad53; */
+    font-family: 'Calistoga', cursive;
+    margin: 0px;
+    padding: 0px;
+    color: #479400;
+    
+  }
+  .products .product-info div span{
+    font-weight: 800;
+    color: #f44336;
+    font-family: 'Calistoga', cursive;
+    margin-right: 5px;
+  }
+
+  .first__image{
+    border-bottom-right-radius: 10px ;
+    border-top-right-radius: 10px ;
+  }
+
+  @media screen and (max-width: 80em) {
+    .b1{
+      width: 100%;
+      margin: 10% 10% 0 14%;
+    }
+  
+    footer{
+      padding: 0 64%;
+      margin: 38% 0;
+    }
+  }

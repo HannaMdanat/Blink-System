@@ -1,0 +1,1 @@
+<?php $link = mysqli_connect("sql103.byethost12.com","b12_28708879","Diab.sadi98","b12_28708879_Blinksystem");?>

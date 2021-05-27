@@ -1,0 +1,212 @@
+.b1 {
+  background-color: white;
+  position: inherit;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: -20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 200px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 175px;
+  margin-right: 1120px;
+  margin-top: 30px;
+  height: 280px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+  border-radius: 10px;
+}
+
+.b2:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+  cursor:pointer;
+}
+
+.b3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-left: 800px;
+  margin-right: 620px;
+  margin-top: -280px;
+  height: 280px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+  border-radius: 10px;
+}
+
+.b3:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+  cursor:pointer;
+}
+
+.b4 {
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  background-color: white;
+  margin-left: 1300px;
+  margin-right: 175px;
+  margin-top: -280px;
+  height: 600px;
+  box-shadow: 0px 3px 3px 3px #b2b2b2;
+  border-radius: 10px;
+  background-image:url("https://cdn.discordapp.com/attachments/721568229700665375/841776417121239060/580b57fbd9996e24bc43bf26.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: slider 12s infinite;
+  background-position:center;
+}
+@keyframes slider{
+  25%{background-image: url("https://cdn.discordapp.com/attachments/721568229700665375/841776414126374963/580b57fbd9996e24bc43bf21.png");}
+  50%{background-image: url("https://cdn.discordapp.com/attachments/721568229700665375/841776415472091176/580b57fbd9996e24bc43bf30.png");}
+  75%{background-image: url("https://cdn.discordapp.com/attachments/721568229700665375/841776418614018088/580b57fbd9996e24bc43bf33.png");}
+}
+.txt2{
+  font-family: serif;
+}
+.b5 {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: white;
+  margin-left: 175px;
+  margin-right: 1220px;
+  margin-top: -290px;
+  height: 290px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+}
+
+.b5:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+  cursor:pointer;
+}
+
+.b6 {
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  background-color: white;
+  margin-left: 700px;
+  margin-right: 620px;
+  margin-top: -290px;
+  height: 290px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+}
+.txt1{
+  align-self:center;
+  margin-left: 20px;
+}
+.b7{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 35px;
+  height: 170px;
+  border-radius: 65px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+}
+.b7:hover{
+  transform: scale(1.1);
+  transition:0.2s;
+  cursor:pointer;
+}
+.txt3{
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  font-family: serif;
+  margin-left: 100px;
+}
+.b8{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  background-color: white;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 35px;
+  height: 170px;
+  border-radius: 65px;
+  box-shadow: 0px 2px 3px 2px #b2b2b2;
+}
+.b8:hover{
+  transform: scale(1.1);
+  transition:0.2s;
+  cursor:pointer;
+}
+.txt4{
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  font-family: serif;
+  margin-left: 180px;
+}
+
+body {
+  background-image: url("https://cdn.discordapp.com/attachments/721568229700665375/842117654470459412/eed1903b1092d9537a26bf61960beb88.jpg");
+  font-family: sans-serif;
+  color: #5a5a5a;
+}
+
+@media screen and (max-width: 80em){
+  .b1{
+    margin: 0 -30.5% 0 0;
+  }
+
+  .b8{
+    margin: 5% -10% 0 15%;
+    height: 280px;
+    border-radius: 80px;
+  }
+
+  .img2{
+    display: flex;
+  }
+
+  .b2{
+    margin: 5% -10% 0 15%;
+    border-radius: 80px;
+  }
+
+  .b3{
+    margin: 5% -10% 20% 15%;
+    border-radius: 80px;
+  }
+
+  .b4{
+    display: none;
+  }
+
+  .b5{
+    margin: -15% -10% 20% 15%;
+    border-radius: 80px;
+  }
+
+  .b6{
+    margin: -15% -10% 40% 15%;
+    border-radius: 80px;
+  }
+  .b7{
+    margin: -35% -25% 0 5%;
+    height: 280px;
+    border-radius: 80px;
+  }
+}

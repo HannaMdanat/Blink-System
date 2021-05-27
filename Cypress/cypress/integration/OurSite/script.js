@@ -18,5 +18,16 @@ describe("Blink" , ()=>{
         cy.get(['herf=logout.php']).click() 
        })
     
-}
-)
+    it("Admin Log in test" , ()=>{
+        cy.visit("blink.byethost12.com/admin/signIn.php");
+        cy.get('[type=email').type("diab.sadi98@gmail.com");
+        cy.get('[type=password').type("diab123");
+        cy.get('[type=submit]').click();
+    })
+    it("Admin View Data",()=>{
+        cy.get("[href=pages/tables/data.png").click();
+        cy.get("tabindex[0]").invoke('text').then((text)=>{
+            expect(text).should.not.equal(null);
+        })
+    })
+})

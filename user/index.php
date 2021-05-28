@@ -48,7 +48,7 @@
             </li>
           </ul>
           <form class="d-flex navform">
-            <input class="form-control me-2" type="search" placeholder="Search for products" aria-label="Search">
+            <input type ="text" class="form-control me-2" type="search" placeholder="Search for products" aria-label="Search">
             <button class="btn searchbtn" type="submit"></button>
           </form>
         </div>

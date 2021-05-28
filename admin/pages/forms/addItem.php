@@ -261,7 +261,7 @@
           <div class="col-md-12">
             <!-- jquery validation -->
             <div class="card card-primary">
-              <form action="addItems.php" method="GET">
+              <form action="additems.php" method="GET">
                 <div class="card-body">
                   <div class="form-group">
                     <label for="ItemID">Item Id:</label>
